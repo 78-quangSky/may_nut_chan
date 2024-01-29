@@ -309,9 +309,6 @@ class PLC:
 
         Args:
             bitAlwaysOnAddr (str, optional): The address of the bit always on. Defaults to 'SM400'.
-
-        Returns:
-            None
         """
         count = 0
         case = 0
