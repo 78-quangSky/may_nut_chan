@@ -16,6 +16,7 @@ def publish_data(varName, varAddr, varValue, KindOfData):
         client.publish_data(varName, varValue)
     Log.log_data(varName, varAddr, varValue, KindOfData, ST.is_connectWifi)
 
+
 # --------------------------- Setup MQTT -------------------------------------
 # Define MQTT call-back function
 def on_connect(client, rc):
