@@ -1,4 +1,6 @@
 opcua
-pandas
 thread6
 asyncio
+paho-mqtt
+numpy
+pandas

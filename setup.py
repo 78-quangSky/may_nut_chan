@@ -4,7 +4,6 @@ import platform
 # List of dependencies to be installed via pip
 install_requires = [
     'opcua',
-    'pandas',
     'thread6',
     'asyncio',
     'paho-mqtt',
@@ -16,6 +15,12 @@ if platform.system() == 'Linux':
         'python3-numpy',
         'python3-pandas',
         # Add other Linux-specific dependencies as needed
+    ])
+else:
+    install_requires.extend([
+        'numpy',
+        'pandas',
+        # Add other platform-specific dependencies as needed
     ])
 
 with open("README.md", "r") as fh:
