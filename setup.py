@@ -7,6 +7,7 @@ install_requires = [
     'pandas',
     'thread6',
     'asyncio',
+    'paho-mqtt',
 ]
 
 # Linux-specific dependencies to be installed via apt-get
